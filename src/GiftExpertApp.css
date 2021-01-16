@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     font-family:  Helvetica,Arial, sans-serif;
 }
 
@@ -23,23 +24,23 @@ ol{
     width: 100%;
     min-height: 500px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 15px 0;
     padding: 10px;
     border: 2px solid rgb(93, 173, 47, 0.5);
-    /* animation: fade 1s linear; */
 }
 .giftGrid h2{
     width: 100%;
 }
 .giftGrid .item{
-    width: 150px;
+    width: 19%;
+    min-width: 150px;
+    margin: 5px;
 }
 img{
-    width: 150px;
+    width: 100%;
     height: 100px;
-
 }
 
 @keyframes fade {

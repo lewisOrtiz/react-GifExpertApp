@@ -12,7 +12,7 @@ export default function GiftExpertApp() {
 
   return (
     <div>
-      <h2>GiftExpertApp</h2>
+      <h2>GifExpertApp</h2>
 
       <AddCategory addCats={AddCat} />
 

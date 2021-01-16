@@ -15,7 +15,12 @@ export default function AddCategory({ addCats }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" value={inputValue} onChange={handleChange} />
+      <input
+        type="text"
+        placeholder="Search Gifs"
+        value={inputValue}
+        onChange={handleChange}
+      />
     </form>
   );
 }
